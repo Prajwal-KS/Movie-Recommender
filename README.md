@@ -92,6 +92,10 @@ Clone the repository
 ```bash
 https://github.com/Prajwal-KS/Movie-Recommender.git
 ```
+```bash
+Download the dataset from given link and paste it in 'data' folder
+```
+
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
