@@ -1,5 +1,7 @@
 ### dependency
 streamlit
-
+requests
+base64
+pickle
 ### local packages -
 -e . 
