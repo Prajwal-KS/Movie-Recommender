@@ -62,7 +62,7 @@ if st.button('Show Recommendation'):
     col11, col12, col13, col14, col15 = st.columns(5)
     col16, col17, col18, col19, col20 = st.columns(5)
     with col1:
-        st.write(recommended_movie_names[0])
+        st.text(recommended_movie_names[0])
         st.image(recommended_movie_posters[0])
     with col2:
         st.text(recommended_movie_names[1])
@@ -77,7 +77,7 @@ if st.button('Show Recommendation'):
         st.text(recommended_movie_names[4])
         st.image(recommended_movie_posters[4])
     with col6:
-        st.write(recommended_movie_names[5])
+        st.text(recommended_movie_names[5])
         st.image(recommended_movie_posters[5])
     with col7:
         st.text(recommended_movie_names[6])
@@ -92,7 +92,7 @@ if st.button('Show Recommendation'):
         st.text(recommended_movie_names[9])
         st.image(recommended_movie_posters[9])
     with col11:
-        st.write(recommended_movie_names[10])
+        st.text(recommended_movie_names[10])
         st.image(recommended_movie_posters[10])
     with col12:
         st.text(recommended_movie_names[11])
@@ -107,7 +107,7 @@ if st.button('Show Recommendation'):
         st.text(recommended_movie_names[14])
         st.image(recommended_movie_posters[14])
     with col16:
-        st.write(recommended_movie_names[15])
+        st.text(recommended_movie_names[15])
         st.image(recommended_movie_posters[15])
     with col17:
         st.text(recommended_movie_names[16])
